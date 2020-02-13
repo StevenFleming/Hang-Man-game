@@ -1,5 +1,20 @@
 export class Dinoipsum {
 
+  // Creating a more object oriented approach work in progress
+  // constructor(){
+  //   this.word = "";
+  //   this.lengthofDinoWord = 0;
+  //   this.dinoarray =[]
+  // }
+
+  // getDinoWord(response){
+  //   this.word = response;
+  //   getDinoWordLength();
+  // }
+  // getDinoWordLength(){
+  //   this.lengthofDinoword = this.word.length
+  // }
+
 
   getDinoLength(response){
     this.response = response
@@ -9,9 +24,15 @@ export class Dinoipsum {
     let arrayDinoLetters = StringDinoName.split("");
     return arrayDinoLetters.length;
   }
-  createblankArray(){
+  // createblankArray(){
+  //   this.response = response
+  //   this.response[0];
+  //   let DinoName = this.response[0];
+  //   let StringDinoName = DinoName.toString();
+  //   let arrayDinoLetters = StringDinoName.split("");
+  //   arrayDinoLetters 
 
-  }
+  // }
 
   getDinoLetterArray(response){
     this.response = response
